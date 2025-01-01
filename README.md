@@ -14,33 +14,32 @@ Contains various Tweaks and Optimizations aimed at Improving the overall user Ex
 ## Features
 
 ```
--   disable log dropbox
-    settings put priority
-    optimize GED (Graphic Engine Driver)
-    optimize power policy manager
-    optimize connection
-    optimize gpu kgsl & gpu freq 
-    optimize kernel
-    optimize cpu & cpu_boost
-    optimize virtual memory
-    optimize i/o scheduler
-    disable debugging features
-    optimize network
-    optimize gpu powervr
-    disable kernel panic
-    disable printk
-    optimize kernel entropy
-    power set-fixed-performance-mode-enabled true
-    Add GMS to battery optimization
-    Disable hw overlays
-    Google Service Config Reduce Drain
-    Disable google analityc
-    clear stune & uclamp
-    file system tweaks
-    disable vync
-    Change kernel mode to HMP Mode
-    Touch boost
-    Other advance settings
+- Disable log dropbox
+- Settings put priority
+- Optimize GED (Graphic Engine Driver)
+- Optimize power policy manager
+- Optimize connection
+- Optimize gpu kgsl & gpu freq 
+- Optimize kernel
+- Optimize cpu & cpu_boost
+- Optimize virtual memory
+- Optimize I/O scheduler
+- Disable debugging features
+- Optimize gpu powervr
+- Disable kernel panic
+- Disable printk
+- Optimize kernel entropy
+- Power set-fixed-performance-mode-enabled true
+- Add GMS to battery optimization
+- Disable hw overlays
+- Google Service Config Reduce Drain
+- Disable google analityc
+- Clear stune & uclamp
+- File system tweaks
+- Disable vync
+- Change kernel mode to HMP Mode
+- Touch boost
+- Other advance settings
 ```
 
 ---
