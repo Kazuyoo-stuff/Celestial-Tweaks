@@ -2,11 +2,11 @@
 
 ![LOGO](https://github.com/Kazuyoo-stuff/Celestial-Tweaks/blob/fa3156ad5381ea630df8803a3cd0969631cef4b9/image/image.jpg)
 
-Advanced Kernel Tweaker for Android Devices
+improve the overall user experience.
 
 Overview
 
-Allows to Improve device Performance and efficiency by Adjusting Kernel Settings. Includes Scheduler, Ram Optimation, and I/O to faster and efficiently, without sacrificing stability.
+Contains various Tweaks and Optimizations aimed at Improving the overall user Experience, such as Performance Improvements, Battery, Network, and others.
 
 
 ---
@@ -14,27 +14,33 @@ Allows to Improve device Performance and efficiency by Adjusting Kernel Settings
 ## Features
 
 ```
-- Fetch the available governors from the CPU
-- CPU Governor settings for LITTLE & BIG cores
-- sched period | vmruntime | lower latency
-- migration frequency (ns)
-- Upper and lower limits for CPU utility settings
-- Reduce scheduler migration time to improve real-time latency
-- Perf event processing timeout (in percentage of CPU)
-- Always allow sched boosting on top-app tasks
-- Disable scheduler statistics to reduce overhead
-- Controlling kernel tendency to use swap
-- Clearing the dentry and inode cache
-- Controls logging of disk I/O activity
-- Enable TCP low latency mode | disable tcp timestamps
-- Set up for I/O
-- Enable dynamic fsync
-- Disable Printk
-- Change kernel mode to HMP Mode
-- Enable gpu boost in kernel (2)
-- Disable Kernel Panic off
-- kernel debug sched features "NEXT_BUDDY" "TTWU_QUEUE"
-- and more additional settings in kernel
+-   disable log dropbox
+    settings put priority
+    optimize GED (Graphic Engine Driver)
+    optimize power policy manager
+    optimize connection
+    optimize gpu kgsl & gpu freq 
+    optimize kernel
+    optimize cpu & cpu_boost
+    optimize virtual memory
+    optimize i/o scheduler
+    disable debugging features
+    optimize network
+    optimize gpu powervr
+    disable kernel panic
+    disable printk
+    optimize kernel entropy
+    power set-fixed-performance-mode-enabled true
+    Add GMS to battery optimization
+    Disable hw overlays
+    Google Service Config Reduce Drain
+    Disable google analityc
+    clear stune & uclamp
+    file system tweaks
+    disable vync
+    Change kernel mode to HMP Mode
+    Touch boost
+    Other advance settings
 ```
 
 ---
