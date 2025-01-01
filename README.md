@@ -64,9 +64,11 @@ Please report compatibility for other devices.
 
 ## Thanks To
 
-- @tytydraco & @another_person2 & @reljawa
+- @Bias_khaliq & @reljawa & @pedrozzz0
 
-- @NotZeetaa & @hirauki
+- @NotZeetaa & @hirauki & @akemiinawa
+
+- @tytydraco @iamlooper @LeanHijosdesusMadres
 
 ---
 
