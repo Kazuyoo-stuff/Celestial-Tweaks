@@ -46,7 +46,7 @@ Contains various Tweaks and Optimizations aimed at Improving the overall user Ex
 
 ## Screenshot
 
-![LOGO](https://github.com/Kazuyoo-stuff/Celestial-Tweaks/blob/e137795b9886c01b333e0cbc02e87242330eb6cb/image/Screenshot_20250101-213003_Magisk.png) ![LOGO](https://github.com/Kazuyoo-stuff/Celestial-Kernel-Tweaks/blob/ea6ae84bf90cefd42db6cc2e46ba97299d368831/media/ss2.jpg)
+![LOGO](https://github.com/Kazuyoo-stuff/Celestial-Tweaks/blob/e137795b9886c01b333e0cbc02e87242330eb6cb/image/Screenshot_20250101-213003_Magisk.png) ![LOGO](https://github.com/Kazuyoo-stuff/Celestial-Tweaks/blob/bb1711aeb6e39fd692ab2420094cae793db95f70/image/Screenshot_20250101-212914_Magisk.png)
 
 ---
 
