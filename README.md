@@ -15,30 +15,36 @@ Contains various Tweaks and Optimizations aimed at Improving the overall user Ex
 
 ```
 - Disable log dropbox
-- Settings put priority
 - Optimize GED (Graphic Engine Driver)
 - Optimize power policy manager
 - Optimize connection
 - Optimize gpu kgsl & gpu freq 
 - Optimize kernel
-- Optimize cpu & cpu_boost
+- Optimize cpufreq & Walt adjusment
 - Optimize virtual memory
 - Optimize I/O scheduler
 - Disable debugging features
 - Optimize gpu powervr
 - Disable kernel panic
 - Disable printk
-- Optimize kernel entropy
+- Optimize MIUI
+- Disable MIUI Might
+- Enables ZRAM 1:1 if device is Hyper OS 2.0
+- Enables FBO service if HAL and props found, only for UFS
+- Anti low end MIUI
+- Off Ramdumps
+- Qualcomm enter C-state level 3 took ~500us
 - Power set-fixed-performance-mode-enabled true
-- Add GMS to battery optimization
-- Disable hw overlays
-- Google Service Config Reduce Drain
-- Disable google analityc
-- Clear stune & uclamp
 - File system tweaks
 - Disable vync
-- Change kernel mode to HMP Mode
+- Cpu Efficient
 - Touch boost
+- other disable log ( cmd )
+- optimize surface flinger
+- enable Hypertheading & Multithread
+- optimize HWUI prop
+- Trim properties
+- Vendor perf properties
 - Other advance settings
 ```
 
@@ -64,11 +70,11 @@ Please report compatibility for other devices.
 
 ## Thanks To
 
-- @Bias_khaliq & @reljawa & @pedrozzz0
+- @Bias_khaliq | @pedrozzz0 | Minhhai
 
-- @NotZeetaa & @hirauki & @akemiinawa
+- @hirauki | @akemiinawa | Matt Yang
 
-- @tytydraco @iamlooper @LeanHijosdesusMadres
+- @LeanHijosdesusMadres
 
 ---
 
