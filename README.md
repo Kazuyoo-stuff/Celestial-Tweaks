@@ -72,7 +72,7 @@ Please report compatibility for other devices.
 
 - @Bias_khaliq | @pedrozzz0 | Minhhai
 
-- @hirauki | @akemiinawa | Matt Yang
+- KNTD-reborn | @akemiinawa | Matt Yang
 
 - @LeanHijosdesusMadres
 
