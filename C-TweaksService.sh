@@ -300,7 +300,7 @@ optimize_miui() {
         resetprop -n persist.sys.stability.miui_fbo_start_count 1
     fi
     
-  #Anti Low End Miui
+  # Anti Low End Miui
     resetprop -n ro.config.low_ram.threshold_gb false
     resetprop -n ro.config.low_ram false
 
