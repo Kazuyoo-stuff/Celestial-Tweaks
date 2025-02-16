@@ -27,11 +27,10 @@ Contains various Tweaks and Optimizations aimed at Improving the overall user Ex
 - Optimize gpu powervr
 - Disable kernel panic
 - Disable printk
-- Optimize MIUI
+- Optimize MIUI & HyperOS
 - Disable MIUI Might
 - Enables ZRAM 1:1 if device is Hyper OS 2.0
 - Enables FBO service if HAL and props found, only for UFS
-- Anti low end MIUI
 - Off Ramdumps
 - Qualcomm enter C-state level 3 took ~500us
 - Power set-fixed-performance-mode-enabled true
@@ -45,6 +44,8 @@ Contains various Tweaks and Optimizations aimed at Improving the overall user Ex
 - optimize HWUI prop
 - Trim properties
 - Vendor perf properties
+- LMKD Configuration
+- Audio Enhancher
 - Other advance settings
 ```
 
@@ -74,7 +75,7 @@ Please report compatibility for other devices.
 
 - KNTD-reborn | @akemiinawa | Matt Yang
 
-- @LeanHijosdesusMadres
+- @LeanHijosdesusMadres | @WisnuArdhi34
 
 ---
 
