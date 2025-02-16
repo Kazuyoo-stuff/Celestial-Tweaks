@@ -4,6 +4,7 @@
 # and module is placed.
 # This will make sure your module will still work
 # if Magisk change its mount point in the future
+# Kzuyoo | Kazuyoo-stuff
 
 # ----------------- GLOBAL VARIABLES -----------------
 MODDIR=${0%/*}
@@ -196,7 +197,6 @@ optimize_gpu() {
         for gpufreq in /proc/gpufreq; do
             case "$(basename "$gpufreq")" in
                 gpufreq_opp_freq) write_val "$gpufreq/gpufreq_opp_freq" "0" ;;
-                gpufreq_fixed_freq_volt) write_val "$gpufreq/gpufreq_fixed_freq_volt" "0" ;;
                 gpufreq_opp_stress_test) write_val "$gpufreq/gpufreq_opp_stress_test" "0" ;;
                 gpufreq_power_dump) write_val "$gpufreq/gpufreq_power_dump" "0" ;;
                 gpufreq_power_limited) write_val "$gpufreq/gpufreq_power_limited" "0" ;;
@@ -274,9 +274,6 @@ optimize_miui() {
                 echo "There is no suitable configuration for the number of cores: $nr_cores"
                 ;;
         esac
-    else
-        echo "Device is not MIUI."
-    fi
     
     # disable miui migt
     if [ -d "/sys/module/migt/" ]; then
@@ -299,15 +296,14 @@ optimize_miui() {
         resetprop -n persist.sys.fboservice.ctrl true
         resetprop -n persist.sys.stability.miui_fbo_start_count 1
     fi
-    
-  # Anti Low End Miui
-    resetprop -n ro.config.low_ram.threshold_gb false
-    resetprop -n ro.config.low_ram false
 
    pid=$(pgrep -f com.android.commands.input.Input)
    [[ -n "$pid" ]] && chrt -f -p 99 "$pid" && ionice -c 1 -n 3 "$pid" && nice -n 0 "$pid"
    pid=$(pgrep -f com.miui.home)
    [[ -n "$pid" ]] && chrt -f -p 99 "$pid" && ionice -c 1 -n 3 "$pid" && nice -n 0 "$pid"
+      else
+        echo "Device is not MIUI."
+    fi
 }
 
 
